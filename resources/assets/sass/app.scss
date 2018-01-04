@@ -1,9 +1,12 @@
-
-// Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+// Normalize
+@import "libs/normalize";
 
 // Variables
 @import "variables";
+@import "typography";
 
-// Bootstrap
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+// Design system variables
+@import "system/left-menu";
+@import "system/body";
+@import "system/navigation-top";
+
