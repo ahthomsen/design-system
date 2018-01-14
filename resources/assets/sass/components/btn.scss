@@ -1,0 +1,15 @@
+.btn {
+	@apply  .font-bold .uppercase .rounded .text-base .p-4 .pl-6 .pr-6 .tracking-wide;
+}
+
+.btn-primary {
+
+	@apply .bg-teal .text-white;
+
+}
+
+.btn-secondary {
+
+	@apply .bg-grey .text-white;
+
+}

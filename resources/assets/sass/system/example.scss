@@ -1,0 +1,11 @@
+.example {
+	@apply .border-4 .border-solid .rounded;
+}
+
+.example-correct {
+	@apply .border-green-lighter;
+}
+
+.example-error {
+	@apply .border-red-lighter;
+}

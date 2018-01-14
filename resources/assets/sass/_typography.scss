@@ -11,7 +11,7 @@ h3 {
   @apply .text-black .text-base .font-bold .p-1;
 }
 h4 {
-  @apply .text-grey-darker .text-base .font-bold .p-1 .uppercase .tracking-wide;
+  @apply .text-grey-darker .text-base .font-bold .p-1 .uppercase .tracking-widest;
 }
 p {
   @apply .text-black .text-base .font-normal .leading-normal;
@@ -24,12 +24,13 @@ a {
 
 pre {
 	@apply .bg-grey-darkest .p-4 .rounded .text-white .border-2 .border-grey .whitespace-pre-line;
-	@apply .mt-4 .mb-4;
+	@apply .mt-4 .mb-4 .text-center;
 }
 
 blockquote {
-	@apply .bg-white .p-4 .rounded .mx-auto .text-center;
+	@apply .bg-white .rounded .mx-auto .text-center;
 	@apply .mt-4 .mb-4;
+	@apply .p-8
 }
 
 hr	{

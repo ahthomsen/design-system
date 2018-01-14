@@ -4,5 +4,9 @@
 
 @import "typography";
 @import "system/navigation-top";
+@import "system/example";
+
+// components
+@import "components/btn";
 
 @tailwind utilities;
