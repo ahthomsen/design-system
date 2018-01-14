@@ -1,17 +1,4 @@
-/**
- * This injects Tailwind's base styles, which is a combination of
- * Normalize.css and some additional base styles.
- *
- * You can see the styles here:
- * https://github.com/tailwindcss/tailwindcss/blob/master/css/preflight.css
- *
- * If using `postcss-import`, you should import this line from it's own file:
- *
- * @import "./tailwind-preflight.css";
- *
- * See: https://github.com/tailwindcss/tailwindcss/issues/53#issuecomment-341413622
- */
-/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,600,800);/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
@@ -507,21 +494,89 @@ button,
 [role=button] {
   cursor: pointer;
 }
-/**
- * Here you would add any of your custom component classes; stuff that you'd
- * want loaded *before* the utilities so that the utilities could still
- * override them.
- *
- * Example:
- *
- * .btn { ... }
- * .form-input { ... }
- *
- * Or if using a preprocessor or `postcss-import`:
- *
- * @import "components/buttons";
- * @import "components/forms";
- */
+
+body {
+  background-color: #f8fafc;
+  font-family: Raleway, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+}
+
+h1 {
+  color: #22292f;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+h2 {
+  color: #22292f;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h3 {
+  color: #22292f;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.25rem;
+}
+
+h4 {
+  color: #606f7b;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+p {
+  color: #22292f;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.25rem;
+}
+
+a {
+  color: #3490dc;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+pre {
+  background-color: #3d4852;
+  padding: 1rem;
+  border-radius: .25rem;
+  color: #ffffff;
+  border-width: 2px;
+  border-color: #b8c2cc;
+  white-space: pre-line;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+blockquote {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: .25rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+hr {
+  background-color: #dae1e7;
+  height: 0.25rem;
+  border-radius: .25rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
 .navigation-top {
   width: 100%;
   text-align: center;
@@ -529,16 +584,6 @@ button,
   padding: 20px;
 }
 
-/**
- * This injects all of Tailwind's utility classes, generated based on your
- * config file.
- *
- * If using `postcss-import`, you should import this line from it's own file:
- *
- * @import "./tailwind-utilities.css";
- *
- * See: https://github.com/tailwindcss/tailwindcss/issues/53#issuecomment-341413622
- */
 .container {
   width: 100%;
 }
@@ -2411,83 +2456,35 @@ button,
 }
 
 .font-serif {
-  font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+  font-family: Raleway, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
 }
 
 .font-mono {
   font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
 }
 
-.font-hairline {
-  font-weight: 100;
-}
-
-.font-thin {
-  font-weight: 200;
-}
-
-.font-light {
-  font-weight: 300;
-}
-
 .font-normal {
   font-weight: 400;
 }
 
-.font-medium {
-  font-weight: 500;
-}
-
-.font-semibold {
-  font-weight: 600;
-}
-
 .font-bold {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .font-extrabold {
   font-weight: 800;
 }
 
-.font-black {
-  font-weight: 900;
-}
-
-.hover\:font-hairline:hover {
-  font-weight: 100;
-}
-
-.hover\:font-thin:hover {
-  font-weight: 200;
-}
-
-.hover\:font-light:hover {
-  font-weight: 300;
-}
-
 .hover\:font-normal:hover {
   font-weight: 400;
 }
 
-.hover\:font-medium:hover {
-  font-weight: 500;
-}
-
-.hover\:font-semibold:hover {
-  font-weight: 600;
-}
-
 .hover\:font-bold:hover {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .hover\:font-extrabold:hover {
   font-weight: 800;
-}
-
-.hover\:font-black:hover {
-  font-weight: 900;
 }
 
 .h-1 {
@@ -4172,27 +4169,11 @@ button,
 }
 
 .text-lg {
-  font-size: 1.125rem;
+  font-size: 2rem;
 }
 
 .text-xl {
-  font-size: 1.25rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .italic {
@@ -4296,7 +4277,7 @@ button,
 }
 
 .tracking-wide {
-  letter-spacing: 0.05em;
+  letter-spacing: 0.2em;
 }
 
 .select-none {
@@ -4518,20 +4499,7 @@ button,
 .z-auto {
   z-index: auto;
 }
-/**
- * Here you would add any custom utilities you need that don't come out of the
- * box with Tailwind.
- *
- * Example :
- *
- * .bg-pattern-graph-paper { ... }
- * .skew-45 { ... }
- *
- * Or if using a preprocessor or `postcss-import`:
- *
- * @import "utilities/background-patterns";
- * @import "utilities/skew-transforms";
- */
+
 @media (min-width: 576px) {
   .sm\:list-reset {
     list-style: none;
@@ -6377,83 +6345,35 @@ button,
   }
 
   .sm\:font-serif {
-    font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+    font-family: Raleway, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
   }
 
   .sm\:font-mono {
     font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
-  .sm\:font-hairline {
-    font-weight: 100;
-  }
-
-  .sm\:font-thin {
-    font-weight: 200;
-  }
-
-  .sm\:font-light {
-    font-weight: 300;
-  }
-
   .sm\:font-normal {
     font-weight: 400;
   }
 
-  .sm\:font-medium {
-    font-weight: 500;
-  }
-
-  .sm\:font-semibold {
-    font-weight: 600;
-  }
-
   .sm\:font-bold {
-    font-weight: 700;
+    font-weight: 600;
   }
 
   .sm\:font-extrabold {
     font-weight: 800;
   }
 
-  .sm\:font-black {
-    font-weight: 900;
-  }
-
-  .sm\:hover\:font-hairline:hover {
-    font-weight: 100;
-  }
-
-  .sm\:hover\:font-thin:hover {
-    font-weight: 200;
-  }
-
-  .sm\:hover\:font-light:hover {
-    font-weight: 300;
-  }
-
   .sm\:hover\:font-normal:hover {
     font-weight: 400;
   }
 
-  .sm\:hover\:font-medium:hover {
-    font-weight: 500;
-  }
-
-  .sm\:hover\:font-semibold:hover {
-    font-weight: 600;
-  }
-
   .sm\:hover\:font-bold:hover {
-    font-weight: 700;
+    font-weight: 600;
   }
 
   .sm\:hover\:font-extrabold:hover {
     font-weight: 800;
-  }
-
-  .sm\:hover\:font-black:hover {
-    font-weight: 900;
   }
 
   .sm\:h-1 {
@@ -8130,27 +8050,11 @@ button,
   }
 
   .sm\:text-lg {
-    font-size: 1.125rem;
+    font-size: 2rem;
   }
 
   .sm\:text-xl {
-    font-size: 1.25rem;
-  }
-
-  .sm\:text-2xl {
-    font-size: 1.5rem;
-  }
-
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-  }
-
-  .sm\:text-4xl {
-    font-size: 2.25rem;
-  }
-
-  .sm\:text-5xl {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .sm\:italic {
@@ -8254,7 +8158,7 @@ button,
   }
 
   .sm\:tracking-wide {
-    letter-spacing: 0.05em;
+    letter-spacing: 0.2em;
   }
 
   .sm\:select-none {
@@ -10323,83 +10227,35 @@ button,
   }
 
   .md\:font-serif {
-    font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+    font-family: Raleway, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
   }
 
   .md\:font-mono {
     font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
-  .md\:font-hairline {
-    font-weight: 100;
-  }
-
-  .md\:font-thin {
-    font-weight: 200;
-  }
-
-  .md\:font-light {
-    font-weight: 300;
-  }
-
   .md\:font-normal {
     font-weight: 400;
   }
 
-  .md\:font-medium {
-    font-weight: 500;
-  }
-
-  .md\:font-semibold {
-    font-weight: 600;
-  }
-
   .md\:font-bold {
-    font-weight: 700;
+    font-weight: 600;
   }
 
   .md\:font-extrabold {
     font-weight: 800;
   }
 
-  .md\:font-black {
-    font-weight: 900;
-  }
-
-  .md\:hover\:font-hairline:hover {
-    font-weight: 100;
-  }
-
-  .md\:hover\:font-thin:hover {
-    font-weight: 200;
-  }
-
-  .md\:hover\:font-light:hover {
-    font-weight: 300;
-  }
-
   .md\:hover\:font-normal:hover {
     font-weight: 400;
   }
 
-  .md\:hover\:font-medium:hover {
-    font-weight: 500;
-  }
-
-  .md\:hover\:font-semibold:hover {
-    font-weight: 600;
-  }
-
   .md\:hover\:font-bold:hover {
-    font-weight: 700;
+    font-weight: 600;
   }
 
   .md\:hover\:font-extrabold:hover {
     font-weight: 800;
-  }
-
-  .md\:hover\:font-black:hover {
-    font-weight: 900;
   }
 
   .md\:h-1 {
@@ -12076,27 +11932,11 @@ button,
   }
 
   .md\:text-lg {
-    font-size: 1.125rem;
+    font-size: 2rem;
   }
 
   .md\:text-xl {
-    font-size: 1.25rem;
-  }
-
-  .md\:text-2xl {
-    font-size: 1.5rem;
-  }
-
-  .md\:text-3xl {
-    font-size: 1.875rem;
-  }
-
-  .md\:text-4xl {
-    font-size: 2.25rem;
-  }
-
-  .md\:text-5xl {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .md\:italic {
@@ -12200,7 +12040,7 @@ button,
   }
 
   .md\:tracking-wide {
-    letter-spacing: 0.05em;
+    letter-spacing: 0.2em;
   }
 
   .md\:select-none {
@@ -14269,83 +14109,35 @@ button,
   }
 
   .lg\:font-serif {
-    font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+    font-family: Raleway, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
   }
 
   .lg\:font-mono {
     font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
-  .lg\:font-hairline {
-    font-weight: 100;
-  }
-
-  .lg\:font-thin {
-    font-weight: 200;
-  }
-
-  .lg\:font-light {
-    font-weight: 300;
-  }
-
   .lg\:font-normal {
     font-weight: 400;
   }
 
-  .lg\:font-medium {
-    font-weight: 500;
-  }
-
-  .lg\:font-semibold {
-    font-weight: 600;
-  }
-
   .lg\:font-bold {
-    font-weight: 700;
+    font-weight: 600;
   }
 
   .lg\:font-extrabold {
     font-weight: 800;
   }
 
-  .lg\:font-black {
-    font-weight: 900;
-  }
-
-  .lg\:hover\:font-hairline:hover {
-    font-weight: 100;
-  }
-
-  .lg\:hover\:font-thin:hover {
-    font-weight: 200;
-  }
-
-  .lg\:hover\:font-light:hover {
-    font-weight: 300;
-  }
-
   .lg\:hover\:font-normal:hover {
     font-weight: 400;
   }
 
-  .lg\:hover\:font-medium:hover {
-    font-weight: 500;
-  }
-
-  .lg\:hover\:font-semibold:hover {
-    font-weight: 600;
-  }
-
   .lg\:hover\:font-bold:hover {
-    font-weight: 700;
+    font-weight: 600;
   }
 
   .lg\:hover\:font-extrabold:hover {
     font-weight: 800;
-  }
-
-  .lg\:hover\:font-black:hover {
-    font-weight: 900;
   }
 
   .lg\:h-1 {
@@ -16022,27 +15814,11 @@ button,
   }
 
   .lg\:text-lg {
-    font-size: 1.125rem;
+    font-size: 2rem;
   }
 
   .lg\:text-xl {
-    font-size: 1.25rem;
-  }
-
-  .lg\:text-2xl {
-    font-size: 1.5rem;
-  }
-
-  .lg\:text-3xl {
-    font-size: 1.875rem;
-  }
-
-  .lg\:text-4xl {
-    font-size: 2.25rem;
-  }
-
-  .lg\:text-5xl {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .lg\:italic {
@@ -16146,7 +15922,7 @@ button,
   }
 
   .lg\:tracking-wide {
-    letter-spacing: 0.05em;
+    letter-spacing: 0.2em;
   }
 
   .lg\:select-none {
@@ -18215,83 +17991,35 @@ button,
   }
 
   .xl\:font-serif {
-    font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+    font-family: Raleway, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
   }
 
   .xl\:font-mono {
     font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
-  .xl\:font-hairline {
-    font-weight: 100;
-  }
-
-  .xl\:font-thin {
-    font-weight: 200;
-  }
-
-  .xl\:font-light {
-    font-weight: 300;
-  }
-
   .xl\:font-normal {
     font-weight: 400;
   }
 
-  .xl\:font-medium {
-    font-weight: 500;
-  }
-
-  .xl\:font-semibold {
-    font-weight: 600;
-  }
-
   .xl\:font-bold {
-    font-weight: 700;
+    font-weight: 600;
   }
 
   .xl\:font-extrabold {
     font-weight: 800;
   }
 
-  .xl\:font-black {
-    font-weight: 900;
-  }
-
-  .xl\:hover\:font-hairline:hover {
-    font-weight: 100;
-  }
-
-  .xl\:hover\:font-thin:hover {
-    font-weight: 200;
-  }
-
-  .xl\:hover\:font-light:hover {
-    font-weight: 300;
-  }
-
   .xl\:hover\:font-normal:hover {
     font-weight: 400;
   }
 
-  .xl\:hover\:font-medium:hover {
-    font-weight: 500;
-  }
-
-  .xl\:hover\:font-semibold:hover {
-    font-weight: 600;
-  }
-
   .xl\:hover\:font-bold:hover {
-    font-weight: 700;
+    font-weight: 600;
   }
 
   .xl\:hover\:font-extrabold:hover {
     font-weight: 800;
-  }
-
-  .xl\:hover\:font-black:hover {
-    font-weight: 900;
   }
 
   .xl\:h-1 {
@@ -19968,27 +19696,11 @@ button,
   }
 
   .xl\:text-lg {
-    font-size: 1.125rem;
+    font-size: 2rem;
   }
 
   .xl\:text-xl {
-    font-size: 1.25rem;
-  }
-
-  .xl\:text-2xl {
-    font-size: 1.5rem;
-  }
-
-  .xl\:text-3xl {
-    font-size: 1.875rem;
-  }
-
-  .xl\:text-4xl {
-    font-size: 2.25rem;
-  }
-
-  .xl\:text-5xl {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .xl\:italic {
@@ -20092,7 +19804,7 @@ button,
   }
 
   .xl\:tracking-wide {
-    letter-spacing: 0.05em;
+    letter-spacing: 0.2em;
   }
 
   .xl\:select-none {

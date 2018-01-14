@@ -12,5 +12,20 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+
+	$dir = base_path('resources/views/pages');
+
+	$test = array_filter(scandir($dir), function($var) {
+
+		if (strpos($var, 'blade.php')) return true;
+
+	});
+
+	$views = array_map (function($input) {
+
+		return substr($input, 0, strlen($input) - 10);
+
+	}, $test);
+
+    return view('index', compact('views'));
 });

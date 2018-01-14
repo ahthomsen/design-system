@@ -207,7 +207,7 @@ module.exports = {
       'sans-serif',
     ],
     'serif': [
-      'Constantia',
+      'Raleway',
       'Lucida Bright',
       'Lucidabright',
       'Lucida Serif',
@@ -252,12 +252,9 @@ module.exports = {
     'xs': '.75rem',     // 12px
     'sm': '.875rem',    // 14px
     'base': '1rem',     // 16px
-    'lg': '1.125rem',   // 18px
-    'xl': '1.25rem',    // 20px
-    '2xl': '1.5rem',    // 24px
-    '3xl': '1.875rem',  // 30px
-    '4xl': '2.25rem',   // 36px
-    '5xl': '3rem',      // 48px
+    'lg': '2rem',   // 18px
+    'xl': '4rem',   // 36px
+    
   },
 
 
@@ -276,15 +273,10 @@ module.exports = {
   */
 
   fontWeights: {
-    'hairline': 100,
-    'thin': 200,
-    'light': 300,
     'normal': 400,
-    'medium': 500,
-    'semibold': 600,
-    'bold': 700,
+    'bold': 600,
     'extrabold': 800,
-    'black': 900,
+    
   },
 
 
@@ -323,7 +315,7 @@ module.exports = {
   tracking: {
     'tight': '-0.05em',
     'normal': '0',
-    'wide': '0.05em',
+    'wide': '0.2em',
   },
 
 

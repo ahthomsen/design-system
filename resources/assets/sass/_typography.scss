@@ -1,19 +1,37 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  @apply .bg-grey-lightest .font-serif;
 }
 h1  {
-  font-size: 30px;
-  font-weight: bolder;
+  @apply .text-black .text-xl .font-extrabold;
 }
 h2 {
-  font-size: 20px;
-  font-weight: bolder;
+  @apply .text-black .text-lg .font-bold;
 }
 h3 {
-  font-size: 16px;
-  font-weight: bold;
+  @apply .text-black .text-base .font-bold .p-1;
+}
+h4 {
+  @apply .text-grey-darker .text-base .font-bold .p-1 .uppercase .tracking-wide;
+}
+p {
+  @apply .text-black .text-base .font-normal .leading-normal;
+  @apply .mt-2 .mb-2 .p-1;
 }
 
-p {
-  font-size: 16px;
+a {
+	@apply .text-blue .text-base .font-bold .leading-normal .no-underline;
+}
+
+pre {
+	@apply .bg-grey-darkest .p-4 .rounded .text-white .border-2 .border-grey .whitespace-pre-line;
+	@apply .mt-4 .mb-4;
+}
+
+blockquote {
+	@apply .bg-white .p-4 .rounded .mx-auto .text-center;
+	@apply .mt-4 .mb-4;
+}
+
+hr	{
+	@apply .bg-grey-light .h-1 .rounded .mb-8 .mt-8;
 }
