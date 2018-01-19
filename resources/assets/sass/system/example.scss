@@ -3,9 +3,9 @@
 }
 
 .example-correct {
-	@apply .border-green-lighter;
+	@apply .border-green;
 }
 
 .example-error {
-	@apply .border-red-lighter;
+	@apply .border-purple;
 }

@@ -4,13 +4,13 @@
 <p> How it looks:</p>
 <blockquote>
     
-    <button class="btn btn-primary">Standard Button</button>
+    <button class="btn btn-primary">Purple Button (primary)</button>
 
 </blockquote>
 
 <pre>
 	
-	&lt;button class=&quot;btn btn-primary&quot;&gt;Standard Button&lt;/button&gt;
+	&lt;button class=&quot;btn btn-purple&quot;&gt;Purple Button&lt;/button&gt;
 
 </pre>
 
@@ -19,12 +19,12 @@
 <p>How it looks:</p>
 <blockquote>
     
-    <button class="btn btn-secondary">Secondary Button</button>
+    <button class="btn btn-grey">Grey Button</button>
 
 </blockquote>
 
 <pre>
 	
-	&lt;button class=&quot;btn btn-secondary&quot;&gt;Secondary Button&lt;/button&gt;
+	&lt;button class=&quot;btn btn-grey&quot;&gt;Grey Button&lt;/button&gt;
 
 </pre>

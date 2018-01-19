@@ -1,5 +1,5 @@
 body {
-  @apply .bg-grey-lightest .font-serif;
+  @apply .bg-grey-light .font-serif;
 }
 h1  {
   @apply .text-purple-darker .text-xl .font-extrabold;
@@ -11,7 +11,7 @@ h3 {
   @apply .text-purple-darker .text-base .font-extrabold .p-1;
 }
 h4 {
-  @apply .text-grey-darker .text-base .font-bold .p-1 .uppercase .tracking-widest;
+  @apply .text-grey .text-base .font-bold .p-1 .uppercase .tracking-widest;
 }
 p {
   @apply .text-black .text-base .font-normal .leading-normal;
@@ -19,7 +19,7 @@ p {
 }
 
 a {
-	@apply .text-blue .text-base .font-bold .leading-normal .no-underline;
+	@apply .text-purple-darker .text-base .font-bold .leading-normal .no-underline;
 }
 
 strong {
