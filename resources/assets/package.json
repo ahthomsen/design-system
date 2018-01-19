@@ -1,0 +1,24 @@
+{
+  "name": "no-more-design-system",
+  "version": "0.0.2",
+  "description": "The internal project used to distribute and manage sass at no-more",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahthomsen/no-more-design-sass.git"
+  },
+  "keywords": [
+    "internal",
+    "component",
+    "project"
+  ],
+  "author": "Anders Thomsen <anders.thomsen@no-more.dk> (https://nomorehours.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahthomsen/no-more-design-sass/issues"
+  },
+  "homepage": "https://github.com/ahthomsen/no-more-design-sass#readme"
+}
