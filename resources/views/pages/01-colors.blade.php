@@ -2,8 +2,8 @@
 <h3 class="mt-4">Base colors</h3>
 <p>Below you will find the base colors that are to be used within any material produced by no-more. Some of these base colors have deviatios that can be used in selectedd case, but as a default we should stick to these.</p>
 <div class="px-1">
-  <div class="flex -mx-1">
-    <div class="w-1/3 px-1">
+  <div class="md:flex md:-mx-1">
+    <div class="w-full px-4 md:w-1/3 mb-2 md:px-1">
       <div class="bg-grey-light p-4 text-center rounded border-purple-darker border-2">
         <p class="text-purple-darker">
          <strong class="text-purple-darker">Main background</strong><br>
@@ -13,7 +13,7 @@
         </p>
       </div>
     </div>
-    <div class="w-1/3 px-1">
+    <div class="w-full px-4 md:w-1/3 mb-2 md:px-1">
       <div class="bg-pink p-4 text-center rounded border-purple-darker border-2">
         <p class="text-white">
           <strong class="text-white">Main highlight</strong><br>
@@ -23,7 +23,7 @@
         </p>
       </div>
     </div>
-    <div class="w-1/3 px-1">
+    <div class="w-full px-4 md:w-1/3 mb-2 md:px-1">
       <div class="bg-purple-darker p-4 text-center rounded border-purple-darker border-2">
         <p class="text-white">
           <strong class="text-white">Contrast bg and text</strong><br>
@@ -45,8 +45,8 @@
 <p> Shades for <strong>purple-darker</strong>:</p>
 
 <div class="px-1">
-  <div class="flex -mx-1">
-    <div class="w-1/3 px-1">
+  <div class="md:flex md:-mx-1">
+    <div class="w-full px-4 md:w-1/3 mb-2 md:px-1">
       <div class="bg-purple-darker p-4 text-center rounded border-purple-darker border-2">
         <p class="text-white">
           <strong class="text-white">Contrast bg and text</strong><br>
@@ -56,7 +56,7 @@
         </p>
       </div>
     </div>
-    <div class="w-1/3 px-1">
+    <div class="w-full px-4 md:w-1/3 mb-2 md:px-1">
       <div class="bg-purple-dark p-4 text-center rounded border-grey border-2">
         <p class="text-white">
           <strong class="text-white">Shade # 1</strong><br>
@@ -66,7 +66,7 @@
         </p>
       </div>
     </div>
-    <div class="w-1/3 px-1">
+    <div class="w-full px-4 md:w-1/3 mb-2 md:px-1">
       <div class="bg-purple p-4 text-center rounded border-grey border-2">
         <p class="text-white">
           <strong class="text-white">Shade # 2t</strong><br>
@@ -82,8 +82,8 @@
 <p> Shades for <strong>grey-ligth</strong>:</p>
 
 <div class="px-1">
-  <div class="flex -mx-1">
-    <div class="w-1/3 px-1">
+  <div class="md:flex md:-mx-1">
+    <div class="w-full px-4 md:w-1/3 mb-2 md:px-1">
       <div class="bg-grey-light p-4 text-center rounded border-purple-darker border-2">
         <p class="text-purple-darker">
          <strong class="text-purple-darker">Main background</strong><br>
@@ -93,7 +93,7 @@
         </p>
       </div>
     </div>
-    <div class="w-1/3 px-1">
+    <div class="w-full px-4 md:w-1/3 mb-2 md:px-1">
       <div class="bg-grey p-4 text-center rounded border-grey border-2">
         <p class="text-purple-darker">
           <strong class="text-purple-darker">Shade # 1</strong><br>
@@ -103,7 +103,7 @@
         </p>
       </div>
     </div>
-    <div class="w-1/3 px-1">
+    <div class="w-full px-4 md:w-1/3 mb-2 md:px-1">
       <div class="bg-white p-4 text-center rounded border-grey border-2">
         <p class="text-purple-darker">
           <strong class="text-purple-darker">Shade # 2t</strong><br>
@@ -119,8 +119,8 @@
 <p> Shades for <strong>pink</strong>:</p>
 
 <div class="px-1">
-  <div class="flex -mx-1">
-    <div class="w-1/3 px-1">
+  <div class="md:flex md:-mx-1">
+    <div class="w-full px-4 md:w-1/3 mb-2 md:px-1">
       <div class="bg-pink p-4 text-center rounded border-purple-darker border-2">
         <p class="text-white">
           <strong class="text-white">Main highlight</strong><br>
@@ -130,7 +130,7 @@
         </p>
       </div>
     </div>
-    <div class="w-1/3 px-1">
+    <div class="w-full px-4 md:w-1/3 mb-2 md:px-1">
       <div class="bg-pink-light p-4 text-center rounded border-grey border-2">
         <p class="text-white">
           <strong class="text-white">Shade # 1</strong><br>
@@ -140,7 +140,7 @@
         </p>
       </div>
     </div>
-    <div class="w-1/3 px-1">
+    <div class="w-full px-4 md:w-1/3 mb-2 md:px-1">
       <div class="bg-white p-4 text-center rounded border-grey border-2">
         <p class="text-purple-darker">
           <strong class="text-purple-darker">n/a</strong><br>
@@ -158,8 +158,8 @@
 <p>In mabny cases, on slides, on websites and etc. we need a solid background color. In order to ensure consistency we will only be using the folloing colors. At no point should you need other colors then this for background:</p>
 
 <div class="px-1">
-  <div class="flex -mx-1">
-    <div class="w-1/3 px-1">
+  <div class="md:flex md:-mx-1">
+    <div class="w-full px-4 md:w-1/3 mb-2 md:px-1">
       <div class="bg-purple-darker p-4 text-center rounded border-2 border-black">
         <p class="text-white">
           <strong class="text-white">Contrast</strong><br>
@@ -169,7 +169,7 @@
         </p>
       </div>
     </div>
-    <div class="w-1/3 px-1">
+    <div class="w-full px-4 md:w-1/3 mb-2 md:px-1">
       <div class="bg-grey-light p-4 text-center rounded border-2 border-black">
         <p class="text-purple-darker">
           <strong class="text-purple-darker">Standard #1</strong><br>
@@ -179,7 +179,7 @@
         </p>
       </div>
     </div>
-    <div class="w-1/3 px-1">
+    <div class="w-full px-4 md:w-1/3 mb-2 md:px-1">
       <div class="bg-white p-4 text-center rounded border-2 border-black">
         <p class="text-purple-darker">
           <strong class="text-purple-darker">Standard #2 </strong><br>
@@ -197,7 +197,7 @@
 <p>As default we only use three colors of text - the dark purple when using light backgrounds and the white color when using the darker backgrounds.</p>
 
 <div class="px-1">
-  <div class="flex -mx-1">
+  <div class="md:flex md:-mx-1">
     <div class="w-1/2 px-1">
       <div class="bg-purple-darker p-4 text-center rounded border-2 border-white">
         <p class="text-white">
@@ -227,8 +227,8 @@
 <p>Common colors for this purpose is the colors green and red. Howver since the pink is already very close to red, we will instead just introduce the green and use pink and grey when we need the classic UI alternatives.</p>
 
 <div class="px-1">
-  <div class="flex -mx-1">
-    <div class="w-1/3 px-1">
+  <div class="md:flex md:-mx-1">
+    <div class="w-full px-4 md:w-1/3 mb-2 md:px-1">
       <div class="bg-green p-4 text-center rounded">
         <p class="text-white">
           <strong class="text-white">"The green"</strong><br>

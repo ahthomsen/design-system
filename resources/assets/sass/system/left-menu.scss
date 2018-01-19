@@ -6,3 +6,8 @@
   padding: 10px;
   height: calc(100vh - 115px);
 }
+@media md {
+	.left-menu-container {
+		display: none;
+	}
+}

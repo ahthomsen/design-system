@@ -1,15 +1,67 @@
 .btn {
-	@apply  .font-bold .uppercase .rounded .text-base .p-4 .pl-6 .pr-6 .tracking-wide;
+	@apply  .font-extrabold .rounded .text-base .p-4 .tracking-wide .shadow-md .border;
+	padding-left: 50px;
+	padding-right: 50px;
+
 }
+
+.btn-pink {
+
+	@apply .bg-pink .text-white .border-pink;
+
+}
+
+.btn-pink:hover {
+
+	@apply .bg-pink-light .text-white;
+
+}
+
 
 .btn-purple {
 
-	@apply .bg-purple .text-white;
+	@apply .bg-purple-darker .text-white .border-purple-darker;
 
 }
 
-.btn-grey {
+.btn-purple:hover {
+
+	@apply .bg-purple-dark .text-white;
+
+}
+
+.btn-green {
+
+	@apply .bg-green .text-white .border-green;
+
+}
+
+.btn-green:hover {
 
 	@apply .bg-grey .text-white;
+
+}
+
+.btn-purple-inverse {
+
+	@apply .bg-purple-darker .text-white .border .border-white;
+
+}
+
+.btn-purple-inverse:hover {
+
+	@apply .bg-purple-dark .text-white;
+
+}
+
+.btn-grey-inverse {
+
+	@apply .bg-grey-light .text-purple-darker .border .border-grey;
+
+}
+
+.btn-grey-inverse:hover {
+
+	@apply .bg-grey .text-purple-darker .border .border-grey;
 
 }

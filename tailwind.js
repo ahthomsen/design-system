@@ -251,8 +251,8 @@ module.exports = {
   tracking: {
     'tight': '-0.05em',
     'normal': '0',
-    'wide': '0.1em',
-    'widest': '0.2em',
+    'wide': '1px',
+    'widest': '2px',
   },
 
 
@@ -349,7 +349,7 @@ module.exports = {
   borderRadius: {
     'none': '0',
     'sm': '.125rem',
-    default: '.25rem',
+    default: '5px',
     'lg': '.5rem',
     'full': '9999px',
   },
@@ -503,7 +503,7 @@ module.exports = {
     'xs': '20rem',
     'sm': '30rem',
     'md': '40rem',
-    'lg': '50rem',
+    'lg': '55rem',
     'xl': '60rem',
     '2xl': '70rem',
     '3xl': '80rem',

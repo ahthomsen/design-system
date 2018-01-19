@@ -18,7 +18,7 @@
 
         @include('includes.navigation-left')
 
-        <div class="container mx-auto max-w-lg mt-32">
+        <div class="contain mx-auto max-w-lg mt-16 md:mt-32">
 
             <div>
                 

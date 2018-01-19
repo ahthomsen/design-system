@@ -1,4 +1,4 @@
-<div class="fixed pin-y pin-l mt-8">
+<div class="fixed pin-y pin-l mt-8 hidden md:block">
 	<div class="mt-8"></div>
 	<ul class="p-8 ml-4">
 		<h3 class="p-1">Topics covered</h3>
