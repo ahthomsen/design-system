@@ -1,5 +1,5 @@
 .example {
-	@apply .border-4 .border-solid .rounded;
+	@apply .border-2 .border-solid .rounded;
 }
 
 .example-correct {
@@ -7,5 +7,5 @@
 }
 
 .example-error {
-	@apply .border-purple;
+	@apply .border-pink;
 }

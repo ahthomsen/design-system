@@ -616,7 +616,7 @@ hr {
 }
 
 .example {
-  border-width: 4px;
+  border-width: 2px;
   border-style: solid;
   border-radius: 5px;
 }
@@ -626,7 +626,7 @@ hr {
 }
 
 .example-error {
-  border-color: #515081;
+  border-color: #f93a5a;
 }
 
 .btn {
@@ -767,6 +767,30 @@ hr {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
   }
+}
+
+.icon-small {
+  width: 50px;
+  height: 50px;
+}
+
+.icon-small-inverse {
+  border-radius: 9999px;
+  padding: 0.5rem;
+  width: 62px;
+  height: 62px;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+}
+
+.icon-inverse {
+  border-radius: 9999px;
+  padding: 1rem;
+  width: 105px;
+  height: 105px;
 }
 
 .container {
