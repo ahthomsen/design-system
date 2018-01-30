@@ -36,15 +36,16 @@
 	<li class="list-item list-item-ordered">
 		Include the relevant components into the respective sass file:
 		<pre>
-			@import "node_modules/no-more-design-system/typography";
+			@import "node_modules/no-more-design-system/sass/_typography.scss";
 		</pre>
 	</li>
 	<li class="list-item list-item-ordered">
 		Make sure that the node_modules folder is being check e.g. add the following to your Laravel mix file:
 		<pre>
-			mix.sass('resources/assets/sass/app.scss', 'public/css', {
-
-			 includePaths: ['node_modules']   })
+		var tailwindcss = require('tailwindcss');
+		mix.sass('resources/assets/sass/app.scss', 'public/css', 
+		{ includePaths: ['node_modules'] })
+  		.options({ processCssUrls: false, postCss: [ tailwindcss('./tailwind.js') ], });
 		</pre>
 	</li>
 	<li class="list-item list-item-ordered">

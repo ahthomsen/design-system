@@ -1,3 +1,5 @@
+
+
 <h1>Using buttons</h1>
 
 <h3 class="mt-4">The default buttons</h3>
@@ -72,3 +74,78 @@
 	&lt;button class=&quot;btn btn-grey-inverse&quot;&gt;Grey Inverse Buttonn&lt;/button&gt;
 
 </pre>
+
+
+<h3 class="mt-8">The dropdown buttons</h3>
+<p>How they look:</p>
+<blockquote class="bg-grey">
+<div class="dropdown">
+<button onclick="ThisFunction()" class="btn btn-pink dropbtn">Dropdown Pink<i class="arrow arrow-down"></i></button>
+  <div id="dropdown" class="dropdown-content contain-shadow mt-6 rounded ">
+  		<i class="arrow arrow-up"></i>
+
+    <a href="">Link</a>
+    <a href="">Link</a>
+    <a href="">Link</a>
+    <a href="">Link</a>
+  </div>
+</div>
+</blockquote>
+
+
+<blockquote class="bg-purple-darker">
+    
+    <div class="dropdown-purple">
+<button onclick="ThisFunctionPurple()" class="btn btn-purple-inverse dropbtn-purple">Dropdown Purple<i class="arrow arrow-down"></i></button>
+  <div id="dropdown-purple" class="dropdown-content-purple mt-6 rounded">
+  	<i class="arrow arrow-up"></i>
+    <a href="">Link</a>
+    <a href="">Link</a>
+    <a href="">Link</a>
+    <a href="">Link</a>
+  </div>
+</div>
+
+</blockquote>
+
+
+
+
+<script>
+function ThisFunction() {
+    document.getElementById("dropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+<script>
+function ThisFunctionPurple() {
+    document.getElementById("dropdown-purple").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn-purple')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content-purple");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
