@@ -141,3 +141,11 @@
   border-bottom: 10px solid #f8fafc;
 
 }
+
+#bgCTA {
+    background: linear-gradient(to bottom, #f8fafc 0%,#f8fafc 30%,#040123 30%,#040123 100%);
+}
+
+#bgCTAreverse {
+    background: linear-gradient(to bottom,#040123  0%,#040123 30%,#f8fafc 30%,#f8fafc 100%);
+}

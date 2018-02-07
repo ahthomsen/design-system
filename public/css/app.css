@@ -889,6 +889,16 @@ hr {
   border-bottom: 10px solid #f8fafc;
 }
 
+#bgCTA {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f8fafc), color-stop(30%, #f8fafc), color-stop(30%, #040123), to(#040123));
+  background: linear-gradient(to bottom, #f8fafc 0%, #f8fafc 30%, #040123 30%, #040123 100%);
+}
+
+#bgCTAreverse {
+  background: -webkit-gradient(linear, left top, left bottom, from(#040123), color-stop(30%, #040123), color-stop(30%, #f8fafc), to(#f8fafc));
+  background: linear-gradient(to bottom, #040123 0%, #040123 30%, #f8fafc 30%, #f8fafc 100%);
+}
+
 .list {
   padding: 0;
   padding-left: .25rem;

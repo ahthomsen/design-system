@@ -4,9 +4,6 @@
 
 <ul>
 	<li>Modals</li>
-	<li>Forms (including dropdowns, labels etc)</li>
 	<li>Tabs</li>
-	<li>Drop down buttons</li>
-	<li>Anchor / links</li>
 	<li>List items</li>
 </ul>

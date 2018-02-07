@@ -47,87 +47,23 @@ let colors = {
   'transparent': 'transparent',
 
   'black': '#22292f',
-  'grey-darkest': '#3d4852',
-  'grey-darker': '#606f7b',
-  'grey-dark': '#7F7F7F',
-  'grey': '#F2E6EA',
-  'grey-light': '#dae1e7',
-  'grey-lighter': '#f1f5f8',
-  'grey-lightest': '#f8fafc',
+  'grey': '#C6C7C9',
+  'grey-light': '#f8fafc',
   'white': '#ffffff',
 
-  'red-darkest': '#3b0d0c',
-  'red-darker': '#621b18',
-  'red-dark': '#cc1f1a',
-  'red': '#e3342f',
-  'red-light': '#ef5753',
-  'red-lighter': '#f9acaa',
-  'red-lightest': '#fcebea',
-
-  'orange-darkest': '#462a16',
-  'orange-darker': '#613b1f',
-  'orange-dark': '#de751f',
-  'orange': '#f6993f',
-  'orange-light': '#faad63',
-  'orange-lighter': '#fcd9b6',
-  'orange-lightest': '#fff5eb',
-
-  'yellow-darkest': '#453411',
-  'yellow-darker': '#684f1d',
-  'yellow-dark': '#f2d024',
-  'yellow': '#ffed4a',
-  'yellow-light': '#fff382',
-  'yellow-lighter': '#fff9c2',
-  'yellow-lightest': '#fcfbeb',
-
-  'green-darkest': '#0f2f21',
-  'green-darker': '#1a4731',
-  'green-dark': '#1f9d55',
   'green': '#38c172',
-  'green-light': '#51d88a',
-  'green-lighter': '#a2f5bf',
-  'green-lightest': '#e3fcec',
 
-  'teal-darkest': '#0d3331',
-  'teal-darker': '#20504f',
-  'teal-dark': '#38a89d',
-  'teal': '#4dc0b5',
-  'teal-light': '#64d5ca',
-  'teal-lighter': '#a0f0ed',
-  'teal-lightest': '#e8fffe',
+  'purple-darker': '#040123',
+  'purple-dark': '#2B256F',
+  'purple': '#515081',
 
-  'blue-darkest': '#12283a',
-  'blue-darker': '#1c3d5a',
-  'blue-dark': '#2779bd',
-  'blue': '#3490dc',
-  'blue-light': '#6cb2eb',
-  'blue-lighter': '#bcdefa',
-  'blue-lightest': '#eff8ff',
-
-  'indigo-darkest': '#191e38',
-  'indigo-darker': '#2f365f',
-  'indigo-dark': '#5661b3',
-  'indigo': '#6574cd',
-  'indigo-light': '#7886d7',
-  'indigo-lighter': '#b2b7ff',
-  'indigo-lightest': '#e6e8ff',
-
-  'purple-darkest': '#21183c',
-  'purple-darker': '#3b3856',
-  'purple-dark': '#794acf',
-  'purple': '#9561e2',
-  'purple-light': '#a779e9',
-  'purple-lighter': '#d6bbfc',
-  'purple-lightest': '#f3ebff',
-
-  'pink-darkest': '#451225',
-  'pink-darker': '#6f213f',
   'pink-dark': '#eb5286',
-  'pink': '#f96b71',
-  'pink-light': '#fa7ea8',
-  'pink-lighter': '#ffbbca',
-  'pink-lightest': '#ffebef',
+  'pink': '#F93A5A',
+  'pink-light': '#FA8599',
+  
 }
+
+
 
 module.exports = {
 
@@ -315,8 +251,8 @@ module.exports = {
   tracking: {
     'tight': '-0.05em',
     'normal': '0',
-    'wide': '0.1em',
-    'widest': '0.2em',
+    'wide': '1px',
+    'widest': '2px',
   },
 
 
@@ -413,7 +349,7 @@ module.exports = {
   borderRadius: {
     'none': '0',
     'sm': '.125rem',
-    default: '.25rem',
+    default: '5px',
     'lg': '.5rem',
     'full': '9999px',
   },
@@ -567,7 +503,7 @@ module.exports = {
     'xs': '20rem',
     'sm': '30rem',
     'md': '40rem',
-    'lg': '50rem',
+    'lg': '55rem',
     'xl': '60rem',
     '2xl': '70rem',
     '3xl': '80rem',

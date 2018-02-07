@@ -148,3 +148,40 @@
     </div>
   </div>
 </div>
+
+
+<h3>Icons and headers</h3>
+<p>How to position icons with different types of headers</p>
+<p>Must be align to the left and positioned after the icon: <strong>h1, h2, h3, p</strong></p>
+ <blockquote class="example example-correct">
+            <img class="icon" src="/img/rocket-purple.svg">
+            <h1 class=" text-left">Header</h1><h2 class="text-left">Header</h2><h3 class="text-left">Header</h3><p class="text-left">Lorem lorem lorem</p>
+        </blockquote>
+
+                  <blockquote class="example example-error">
+                
+            <img class="icon" src="/img/rocket-purple.svg">
+            <h1>Header</h1><h2>Header</h2><h3>Header</h3><p>Lorem lorem lorem</p>
+      
+        </blockquote>
+
+                  <blockquote class="example example-error">
+              
+            <img class="icon" src="/img/rocket-purple.svg">
+             <h1 class=" text-right">Header</h1><h2 class="text-right">Header</h2><h3 class="text-right">Header</h3><p class="text-right">Lorem lorem lorem</p>
+      
+        </blockquote>
+
+
+        <p>Must be in the center and positioned after the icon: <strong>h4</strong></p>
+
+
+ <blockquote class="example example-correct">
+            <img class="icon" src="/img/rocket-purple.svg">
+            <h4 class="py-8">Header</h4>
+        </blockquote>
+
+         <blockquote class="example example-error">
+                <h4 class="py-8">Header</h4>
+            <img class="icon" src="/img/rocket-purple.svg">
+        </blockquote>

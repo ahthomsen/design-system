@@ -22,7 +22,7 @@ mix.sass('resources/assets/sass/app.scss', 'public/css', {
    })
   .options({
     processCssUrls: false,
-    postCss: [ tailwindcss('./tailwind.js') ],
+    postCss: [ tailwindcss('./resources/assets/tailwind.js') ],
   });
 
 mix.version();

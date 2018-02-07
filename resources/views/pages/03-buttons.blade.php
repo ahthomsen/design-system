@@ -78,7 +78,7 @@
 
 <h3 class="mt-8">The dropdown buttons</h3>
 <p>How they look:</p>
-<blockquote class="bg-grey">
+<blockquote>
 <div class="dropdown">
 <button onclick="ThisFunction()" class="btn btn-pink dropbtn">Dropdown Pink<i class="arrow arrow-down"></i></button>
   <div id="dropdown" class="dropdown-content contain-shadow mt-6 rounded ">
@@ -91,6 +91,19 @@
   </div>
 </div>
 </blockquote>
+
+<pre>
+  &lt;div class=&quot;dropdown&quot;&gt;<br>
+  &lt;button onclick=&quot;ThisFunction()&quot; class=&quot;btn btn-pink dropbtn&quot;&gt;Dropdown Pink&lt;i class=&quot;arrow arrow-down&quot;&gt;&lt;/i&gt;&lt;/button&gt;<br>
+  &lt;div id=&quot;dropdown&quot; class=&quot;dropdown-content contain-shadow mt-6 rounded&quot;&gt;<br>
+  &lt;i class=&quot;arrow arrow-up&quot;&gt;&lt;/i&gt;<br>
+  &lt;a href=&quot;#link&quot;&gt;Link&lt;/a&gt;<br>
+  &lt;a href=&quot;#link&quot;&gt;Link&lt;/a&gt;<br>
+  &lt;a href=&quot;#link&quot;&gt;Link&lt;/a&gt;<br>
+  &lt;a href=&quot;#link&quot;&gt;Link&lt;/a&gt;<br>
+  &lt;/div&gt;<br>
+  &lt;/div&gt;
+</pre>
 
 
 <blockquote class="bg-purple-darker">
@@ -107,6 +120,21 @@
 </div>
 
 </blockquote>
+
+
+<pre>
+  &lt;div class=&quot;dropdown-purple&quot;&gt;<br>
+  &lt;button onclick=&quot;ThisFunctionPurple()&quot; class=&quot;btn btn-purple-inverse dropbtn-purple&quot;&gt;Dropdown Purple&lt;i class=&quot;arrow arrow-down&quot;&gt;&lt;/i&gt;&lt;/button&gt;<br>
+  &lt;div id=&quot;dropdown-purple&quot; class=&quot;dropdown-content contain-shadow mt-6 rounded&quot;&gt;<br>
+  &lt;i class=&quot;arrow arrow-up&quot;&gt;&lt;/i&gt;<br>
+  &lt;a href=&quot;#link&quot;&gt;Link&lt;/a&gt;<br>
+  &lt;a href=&quot;#link&quot;&gt;Link&lt;/a&gt;<br>
+  &lt;a href=&quot;#link&quot;&gt;Link&lt;/a&gt;<br>
+  &lt;a href=&quot;#link&quot;&gt;Link&lt;/a&gt;<br>
+  &lt;/div&gt;<br>
+  &lt;/div&gt;
+</pre>
+
 
 
 
