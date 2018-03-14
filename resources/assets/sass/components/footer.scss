@@ -1,0 +1,16 @@
+.footer {
+	@apply .bg-purple-darker .text-white .list-reset .p-4;
+}
+
+
+.footer li>a {
+	@apply .text-grey .text-xs .opacity-75;
+}
+
+.footer b>a {
+	@apply .text-white .opacity-100;
+}
+
+.footer li {
+	@apply .mb-1;
+}

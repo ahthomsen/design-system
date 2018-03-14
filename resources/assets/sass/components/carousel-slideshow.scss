@@ -1,0 +1,90 @@
+.slideshow-container {
+	@apply .relative .bg-grey-light;
+  @media (min-width: 768px) {
+     min-height: 286px;
+  }
+  @media (min-width: 1200px) {
+     min-height: 450px;
+  }
+}
+
+.slideshow-container-career {
+  @apply .relative .bg-grey-light;
+    @media (min-width: 768px) {
+     min-height: 286px;
+  }
+  @media (min-width: 1200px) {
+     min-height: 450px;
+  }
+}
+
+.mySlides {
+  display: none;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 40px;
+  text-align: left;
+  @media (min-width: 768px) {
+     min-height: 280px;
+  }
+}
+
+.quote {
+  font-size: 1.2rem;
+}
+
+.quote_mark {
+	@apply py-8 pb-0;
+	padding-left: 80px;
+}
+
+.prev, .next {
+	@apply px-8;
+  position: absolute;
+  padding: 50px;
+  top: 20%;
+  width: auto;
+  border-radius: 30px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  position: absolute;
+  left:0;
+  border-radius: 3px 0 0 3px;
+}
+
+.dot-container {
+@apply .mb-6;
+    text-align: center;
+    background-color: #f8fafc;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid #C6C7C9;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #C6C7C9;
+}
+
+.author {
+@apply text-purple-darker text-xs;
+	text-align: right;
+}

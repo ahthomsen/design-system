@@ -1,0 +1,19 @@
+.numbers {
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+font-family: 'Montserrat', sans-serif;
+}
+
+.michael-link {
+	color: #22292f;
+	@media(min-width: 1200px) {
+	font-size: 1.3rem;
+	}
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+	padding: .25rem;
+	cursor: auto;
+}
