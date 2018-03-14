@@ -1,6 +1,6 @@
 {
   "name": "no-more-design-system",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "The internal project used to distribute and manage sass at no-more",
   "main": "index.js",
   "scripts": {

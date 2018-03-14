@@ -107,6 +107,7 @@ module.exports = {
     'md': '768px',
     'lg': '992px',
     'xl': '1200px',
+    'xxl': '2000px',
   },
 
 
@@ -504,7 +505,7 @@ module.exports = {
     'sm': '30rem',
     'md': '40rem',
     'lg': '55rem',
-    'xl': '60rem',
+    'xl': '1200px',
     '2xl': '70rem',
     '3xl': '80rem',
     '4xl': '90rem',
