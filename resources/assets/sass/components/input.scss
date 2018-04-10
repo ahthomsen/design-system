@@ -1,6 +1,6 @@
 .input {
 
-	@apply   .rounded .text-base .p-6 .mb-4 .tracking-wide .border-2 border-grey;
+	@apply   .rounded .text-base .p-6 .mb-4 .tracking-wide .border-2 .border-grey .border-solid;
 
 
 }
@@ -15,7 +15,7 @@
 
 .input-button {
 
-	@apply .font-extrabold .bg-pink .text-white border-2 border-pink;
+	@apply .font-extrabold .bg-pink .text-white .border-2 .border-pink .border-solid;
 
 }
 
