@@ -5,13 +5,17 @@
 
 }
 
+.btn:disabled {
+	cursor: not-allowed;
+}
+
 .btn-pink {
 
 	@apply .bg-pink .text-white .border-pink;
 
 }
 
-.btn-pink:hover {
+.btn-pink:not([disabled]):hover {
 
 	@apply .bg-pink-light .text-white;
 
@@ -24,7 +28,7 @@
 
 }
 
-.btn-purple:hover {
+.btn-purple:not([disabled]):hover {
 
 	@apply .bg-purple-dark .text-white;
 
@@ -36,7 +40,7 @@
 
 }
 
-.btn-green:hover {
+.btn-green:not([disabled]):hover {
 
 	@apply .bg-grey .text-white;
 
@@ -48,7 +52,7 @@
 
 }
 
-.btn-purple-inverse:hover {
+.btn-purple-inverse:not([disabled]):hover {
 
 	@apply .bg-purple-dark .text-white;
 
@@ -60,7 +64,7 @@
 
 }
 
-.btn-grey-inverse:hover {
+.btn-grey-inverse:not([disabled]):hover {
 
 	@apply .bg-grey .text-purple-darker .border .border-grey;
 
